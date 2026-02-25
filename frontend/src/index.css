@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+
+    /* Portfolio midnight-violet theme tokens */
+    --portfolio-bg: 0.10 0.018 265;
+    --portfolio-surface: 0.14 0.022 265;
+    --portfolio-surface-2: 0.18 0.025 265;
+    --portfolio-border: 0.26 0.030 265;
+    --portfolio-text: 0.96 0.005 265;
+    --portfolio-muted: 0.62 0.018 265;
+    --portfolio-muted-2: 0.42 0.015 265;
+    --portfolio-violet: 0.68 0.22 290;
+    --portfolio-violet-light: 0.78 0.18 290;
+    --portfolio-rose: 0.72 0.18 10;
+    --portfolio-indigo: 0.60 0.20 260;
+
+    /* Shadcn tokens mapped to midnight-violet theme */
+    --background: 0.10 0.018 265;
+    --foreground: 0.96 0.005 265;
+    --card: 0.14 0.022 265;
+    --card-foreground: 0.96 0.005 265;
+    --popover: 0.18 0.025 265;
+    --popover-foreground: 0.96 0.005 265;
+    --primary: 0.68 0.22 290;
+    --primary-foreground: 0.10 0.018 265;
+    --secondary: 0.18 0.025 265;
+    --secondary-foreground: 0.96 0.005 265;
+    --muted: 0.18 0.025 265;
+    --muted-foreground: 0.62 0.018 265;
+    --accent: 0.22 0.028 265;
+    --accent-foreground: 0.96 0.005 265;
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0 0;
+    --border: 0.26 0.030 265;
+    --input: 0.18 0.025 265;
+    --ring: 0.68 0.22 290;
+    --chart-1: 0.68 0.22 290;
+    --chart-2: 0.72 0.18 10;
+    --chart-3: 0.60 0.20 260;
+    --chart-4: 0.65 0.16 160;
+    --chart-5: 0.75 0.16 50;
+    --sidebar: 0.14 0.022 265;
+    --sidebar-foreground: 0.96 0.005 265;
+    --sidebar-primary: 0.68 0.22 290;
+    --sidebar-primary-foreground: 0.10 0.018 265;
+    --sidebar-accent: 0.18 0.025 265;
+    --sidebar-accent-foreground: 0.96 0.005 265;
+    --sidebar-border: 0.26 0.030 265;
+    --sidebar-ring: 0.68 0.22 290;
+  }
+
+  .dark {
+    --background: 0.10 0.018 265;
+    --foreground: 0.96 0.005 265;
+    --card: 0.14 0.022 265;
+    --card-foreground: 0.96 0.005 265;
+    --popover: 0.18 0.025 265;
+    --popover-foreground: 0.96 0.005 265;
+    --primary: 0.68 0.22 290;
+    --primary-foreground: 0.10 0.018 265;
+    --secondary: 0.18 0.025 265;
+    --secondary-foreground: 0.96 0.005 265;
+    --muted: 0.18 0.025 265;
+    --muted-foreground: 0.62 0.018 265;
+    --accent: 0.22 0.028 265;
+    --accent-foreground: 0.96 0.005 265;
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0 0;
+    --border: 0.26 0.030 265;
+    --input: 0.18 0.025 265;
+    --ring: 0.68 0.22 290;
+  }
+
+  * {
+    @apply border-border;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-portfolio-bg text-portfolio-text font-sans;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+
+  .animate-spin-slow {
+    animation: spin 12s linear infinite;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}

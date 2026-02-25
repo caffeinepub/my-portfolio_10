@@ -1,0 +1,310 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 15,
+  "summary": "Building a personal portfolio website for R. Pranaav Sanjith, a final-year B.Tech IT student at MIT Anna University with expertise in data analytics and machine learning. Portfolio content is populated from his resume including real projects, skills, and achievements.",
+  "architectural_notes": [
+    "Reference design: https://my-portfolio-silk-eight-56.vercel.app/",
+    "Owner: R. Pranaav Sanjith — final-year B.Tech IT, Madras Institute of Technology, Anna University. LinkedIn: https://www.linkedin.com/in/r-pranaav-sanjith/"
+  ],
+  "known_issues": [
+    "Customer Segmentation Model GitHub link was broken — real URL: https://github.com/rpsanjith30/Customer_repository_lrfs",
+    "TCS iON certification link needs to be added: https://www.tcsion.com/iDH/India/Dashboard/course_detail/12104424/1"
+  ],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-sticky-responsive-navigation-header-with-smooth-scroll-links-to-each-section-hero-about-projects-skills-contact-and-a-mobile-hamburger-menu",
+      "title": "Create a sticky responsive navigation/header with smooth scroll links to each section (Hero, About, Projects, Skills, Contact) and a mobile hamburger menu.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-full-screen-hero-intro-section-displaying-the-owner-s-name-a-professional-tagline-a-short-one-line-description-and-a-call-to-action-button-e-g-view-my-work-that-scrolls-to-the-projects-section",
+      "title": "Create a full-screen Hero/intro section displaying the owner's name, a professional tagline, a short one-line description, and a call-to-action button (e.g., 'View My Work') that scrolls to the Projects section.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-about-me-section-with-a-profile-photo-placeholder-a-short-bio-paragraph-and-key-personal-highlights-e-g-role-location-years-of-experience",
+      "title": "Create an About Me section with a profile photo placeholder, a short bio paragraph, and key personal highlights (e.g., role, location, years of experience).",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-projects-work-showcase-section-displaying-a-grid-of-project-cards-each-card-shows-a-project-thumbnail-placeholder-project-title-short-description-and-links-for-live-demo-and-github",
+      "title": "Create a Projects/Work Showcase section displaying a grid of project cards. Each card shows a project thumbnail placeholder, project title, short description, and links for 'Live Demo' and 'GitHub'.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-skills-section-displaying-technical-skills-grouped-by-category-e-g-frontend-backend-tools-using-skill-badges-or-progress-indicators",
+      "title": "Create a Skills section displaying technical skills grouped by category (e.g., Frontend, Backend, Tools) using skill badges or progress indicators.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-section-with-a-contact-form-name-email-message-fields-and-a-submit-button-that-submits-messages-to-the-backend-for-storage-plus-social-media-icon-links-github-linkedin-twitter",
+      "title": "Create a Contact section with a contact form (Name, Email, Message fields and a Submit button) that submits messages to the backend for storage, plus social media icon links (GitHub, LinkedIn, Twitter).",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-dark-elegant-visual-theme-with-a-near-black-background-accent-color-in-deep-teal-or-amber-gold-clean-sans-serif-typography-subtle-gradient-or-particle-animation-in-the-hero-and-consistent-spacing-and-visual-hierarchy-throughout-all-sections",
+      "title": "Apply a dark, elegant visual theme with a near-black background, accent color in deep teal or amber-gold, clean sans-serif typography, subtle gradient or particle animation in the hero, and consistent spacing and visual hierarchy throughout all sections.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-the-generated-images-hero-background-profile-placeholder-project-thumbnails-as-static-assets-from-frontend-public-assets-generated",
+      "title": "Render the generated images (hero background, profile placeholder, project thumbnails) as static assets from frontend/public/assets/generated.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-hero-section-to-display-the-real-name-r-pranaav-sanjith-a-tagline-reflecting-his-data-analytics-and-machine-learning-focus-e-g-data-analytics-ml-enthusiast-final-year-b-tech-it-and-a-short-one-line-description-mentioning-his-background-at-madras-institute-of-technology-anna-university",
+      "title": "Update the Hero section to display the real name 'R. Pranaav Sanjith', a tagline reflecting his data analytics and machine learning focus (e.g., 'Data Analytics & ML Enthusiast | Final-Year B.Tech IT'), and a short one-line description mentioning his background at Madras Institute of Technology, Anna University.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-about-me-section-with-pranaav-s-full-bio-paragraph-interests-in-data-preprocessing-feature-engineering-data-cleaning-extracting-insights-from-raw-datasets-and-building-data-driven-models-key-personal-highlights-role-final-year-b-tech-it-student-university-madras-institute-of-technology-anna-university-location-chennai-india-interests-data-analytics-machine-learning-extracurricular-highlights-vice-captain-mit-football-team-2024-zonal-winners-ausec-and-iot-club-public-relations-a-career-goal-statement-and-a-visible-linkedin-link-https-www-linkedin-com-in-r-pranaav-sanjith",
+      "title": "Update the About Me section with Pranaav's full bio paragraph (interests in data preprocessing, feature engineering, data cleaning, extracting insights from raw datasets, and building data-driven models), key personal highlights (Role: Final-Year B.Tech IT Student, University: Madras Institute of Technology Anna University, Location: Chennai, India, Interests: Data Analytics & Machine Learning), extracurricular highlights (Vice Captain MIT Football Team, 2024 Zonal Winners; AUSEC and IoT Club Public Relations), a career goal statement, and a visible LinkedIn link (https://www.linkedin.com/in/r-pranaav-sanjith/).",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-projects-section-with-the-three-real-projects-from-pranaav-s-resume-1-customer-segmentation-model-lrfm-approach-e-commerce-transaction-data-customer-segments-loyal-potential-bargain-passive-tools-python-pandas-scikit-learn-matplotlib-2-real-time-fraud-detection-dashboard-react-frontend-python-mysql-backend-real-time-transaction-monitoring-and-anomaly-flagging-tools-react-python-mysql-3-geolocker-secure-file-storage-using-flask-and-aes-gcm-encryption-tools-flask-python-aes-gcm-each-card-should-show-the-project-title-short-description-relevant-tech-tags-and-placeholder-links-for-live-demo-and-github",
+      "title": "Update the Projects section with the three real projects from Pranaav's resume: (1) Customer Segmentation Model — LRFM approach, e-commerce transaction data, customer segments (Loyal, Potential, Bargain, Passive), tools: Python, Pandas, Scikit-learn, Matplotlib; (2) Real-Time Fraud Detection Dashboard — React frontend, Python + MySQL backend, real-time transaction monitoring and anomaly flagging, tools: React, Python, MySQL; (3) GeoLocker — secure file storage using Flask and AES-GCM encryption, tools: Flask, Python, AES-GCM. Each card should show the project title, short description, relevant tech tags, and placeholder links for Live Demo and GitHub.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-skills-section-with-pranaav-s-real-skills-organized-into-categories-data-ml-python-pandas-numpy-scikit-learn-matplotlib-sql-frontend-react-javascript-html-css-backend-python-full-stack-flask-java-databases-mysql-oracle-and-tools-git-aes-gcm-data-preprocessing-feature-engineering-display-skills-using-progress-bars-or-badge-pills-consistent-with-the-existing-dark-theme",
+      "title": "Update the Skills section with Pranaav's real skills organized into categories: Data & ML (Python, Pandas, NumPy, Scikit-learn, Matplotlib, SQL), Frontend (React, JavaScript, HTML/CSS), Backend (Python Full-Stack, Flask, Java), Databases (MySQL, Oracle), and Tools (Git, AES-GCM, Data Preprocessing, Feature Engineering). Display skills using progress bars or badge pills consistent with the existing dark theme.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-certifications-badges-section-to-the-portfolio-between-skills-and-contact-or-as-a-subsection-within-about-skills-displaying-known-or-placeholder-certifications-relevant-to-pranaav-s-data-analytics-and-ml-focus-include-a-note-or-visual-card-indicating-that-certifications-are-sourced-from-his-linkedin-profile-https-www-linkedin-com-in-r-pranaav-sanjith-use-placeholder-badge-certificate-cards-styled-consistently-with-the-dark-theme-with-title-issuer-and-a-view-on-linkedin-link",
+      "title": "Add a Certifications & Badges section to the portfolio (between Skills and Contact, or as a subsection within About/Skills) displaying known or placeholder certifications relevant to Pranaav's data analytics and ML focus. Include a note or visual card indicating that certifications are sourced from his LinkedIn profile (https://www.linkedin.com/in/r-pranaav-sanjith/). Use placeholder badge/certificate cards styled consistently with the dark theme, with title, issuer, and a 'View on LinkedIn' link.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-section-social-media-links-to-include-pranaav-s-real-linkedin-url-https-www-linkedin-com-in-r-pranaav-sanjith-keep-github-and-twitter-link-slots-as-placeholders",
+      "title": "Update the Contact section social media links to include Pranaav's real LinkedIn URL (https://www.linkedin.com/in/r-pranaav-sanjith/). Keep GitHub and Twitter link slots as placeholders.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-generate-updated-project-thumbnail-images-for-the-three-real-projects-customer-segmentation-model-data-clustering-chart-visual-real-time-fraud-detection-dashboard-dashboard-analytics-visual-and-geolocker-lock-secure-storage-visual-and-render-them-as-static-assets-from-frontend-public-assets-generated",
+      "title": "Generate updated project thumbnail images for the three real projects: Customer Segmentation Model (data clustering / chart visual), Real-Time Fraud Detection Dashboard (dashboard / analytics visual), and GeoLocker (lock / secure storage visual), and render them as static assets from frontend/public/assets/generated.",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-current-profile-photo-placeholder-in-the-about-me-section-with-pranaav-s-linkedin-profile-picture-rendered-as-a-static-asset-from-frontend-public-assets-generated-filename-pranaav-profile-dim-400x400-png-the-image-should-be-displayed-in-a-circular-or-rounded-frame-consistent-with-the-existing-dark-theme-styling",
+      "title": "Replace the current profile photo placeholder in the About Me section with Pranaav's LinkedIn profile picture, rendered as a static asset from frontend/public/assets/generated (filename: pranaav-profile.dim_400x400.png). The image should be displayed in a circular or rounded frame consistent with the existing dark theme styling.",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-hero-section-to-display-pranaav-s-linkedin-profile-picture-pranaav-profile-dim-400x400-png-from-frontend-public-assets-generated-as-the-avatar-profile-image-if-one-is-shown-there-replacing-any-placeholder-graphic-or-initials-avatar",
+      "title": "Update the Hero section to display Pranaav's LinkedIn profile picture (pranaav-profile.dim_400x400.png from frontend/public/assets/generated) as the avatar/profile image if one is shown there, replacing any placeholder graphic or initials avatar.",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-redesign-the-entire-portfolio-with-a-fresh-distinct-visual-theme-that-is-different-from-the-current-dark-teal-amber-gold-design-choose-a-new-cohesive-color-palette-e-g-deep-navy-electric-violet-charcoal-neon-cyan-slate-rose-gold-or-midnight-emerald-update-typography-section-backgrounds-card-styles-button-styles-navigation-bar-appearance-and-all-accent-colors-consistently-across-hero-about-projects-skills-certifications-contact-and-footer-sections-retain-all-existing-content-and-layout-structure-only-the-visual-design-theme-should-change",
+      "title": "Redesign the entire portfolio with a fresh, distinct visual theme that is different from the current dark teal/amber-gold design. Choose a new cohesive color palette (e.g., deep navy + electric violet, charcoal + neon cyan, slate + rose-gold, or midnight + emerald), update typography, section backgrounds, card styles, button styles, navigation bar appearance, and all accent colors consistently across Hero, About, Projects, Skills, Certifications, Contact, and Footer sections. Retain all existing content and layout structure — only the visual design/theme should change.",
+      "reqIds": [
+        "REQ-20"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-projects-section-update-the-github-link-for-the-customer-segmentation-model-project-card-to-the-correct-url-https-github-com-rpsanjith30-customer-repository-lrfs-ensure-the-link-opens-in-a-new-tab",
+      "title": "In the Projects section, update the GitHub link for the Customer Segmentation Model project card to the correct URL: https://github.com/rpsanjith30/Customer_repository_lrfs. Ensure the link opens in a new tab.",
+      "reqIds": [
+        "REQ-21"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-certifications-section-add-or-update-the-tcs-ion-certification-card-to-include-a-working-link-to-https-www-tcsion-com-idh-india-dashboard-course-detail-12104424-1-the-card-should-display-the-tcs-ion-issuer-name-and-link-to-this-url-ensure-the-link-opens-in-a-new-tab",
+      "title": "In the Certifications section, add or update the TCS iON certification card to include a working link to https://www.tcsion.com/iDH/India/Dashboard/course_detail/12104424/1. The card should display the TCS iON issuer name and link to this URL. Ensure the link opens in a new tab.",
+      "reqIds": [
+        "REQ-22"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-hero-section-increase-the-brightness-and-visibility-of-the-tagline-text-data-analytics-ml-enthusiast-final-year-b-tech-it-and-the-one-line-description-final-year-b-tech-information-technology-student-at-madras-institute-of-technology-anna-university-passionate-about-transforming-raw-data-into-meaningful-insights-and-building-data-driven-solutions-by-using-a-lighter-higher-contrast-text-color-e-g-near-white-or-bright-accent-color-so-they-are-clearly-readable-against-the-hero-background",
+      "title": "In the Hero section, increase the brightness and visibility of the tagline text ('Data Analytics & ML Enthusiast | Final-Year B.Tech IT') and the one-line description ('Final-year B.Tech Information Technology student at Madras Institute of Technology, Anna University — passionate about transforming raw data into meaningful insights and building data-driven solutions.') by using a lighter, higher-contrast text color (e.g., near-white or bright accent color) so they are clearly readable against the hero background.",
+      "reqIds": [
+        "REQ-23"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-contact-section-add-a-prominent-email-me-button-or-link-that-opens-the-visitor-s-default-email-client-pre-addressed-to-pranaavsanjith-gmail-com-using-a-mailto-link-the-button-should-be-styled-consistently-with-the-existing-midnight-violet-dark-theme-and-placed-visibly-within-the-contact-area-alongside-the-existing-form-and-social-links",
+      "title": "In the Contact section, add a prominent 'Email Me' button or link that opens the visitor's default email client pre-addressed to pranaavsanjith@gmail.com using a mailto: link. The button should be styled consistently with the existing midnight-violet dark theme and placed visibly within the contact area alongside the existing form and social links.",
+      "reqIds": [
+        "REQ-24"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Hero/intro section with name and tagline",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "About me section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Projects/work showcase section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Skills section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Contact section or form",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Responsive navigation/header",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-13",
+      "summary": "Implement a backend Motoko actor that stores contact form submissions (name, email, message, timestamp) with a query to retrieve all messages.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-14",
+      "summary": "Populate About Me section with Pranaav's real bio, highlights (role, university, location, interests), and LinkedIn profile link",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-15",
+      "summary": "Add real projects: Customer Segmentation Model (LRFM), Real-Time Fraud Detection Dashboard, and GeoLocker secure file storage system",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-16",
+      "summary": "Update Skills section with real skills: Python, Pandas, NumPy, Scikit-learn, Matplotlib, SQL, React, Flask, Java, JavaScript, MySQL, Oracle",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-17",
+      "summary": "Add badges/certifications and additional projects pulled from LinkedIn profile (https://www.linkedin.com/in/r-pranaav-sanjith/)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-18",
+      "summary": "Update hero section with real name 'R. Pranaav Sanjith' and tagline reflecting data analytics / ML focus",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-19",
+      "summary": "Add Pranaav's LinkedIn profile picture as the profile photo in the About Me section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-20",
+      "summary": "Replace the current profile photo in both the About Me section and the Hero section with the newly uploaded photo of Pranaav (image.png), saved as the static asset pranaav-profile.dim_400x400.png in frontend/public/assets/generated. Display it in a circular/rounded frame consistent with the existing dark theme styling in both sections.",
+      "reqIds": [
+        "REQ-19"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-21",
+      "summary": "Change the portfolio to a different/new design",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-22",
+      "summary": "Fix broken project links: update Customer Segmentation Model GitHub link to https://github.com/rpsanjith30/Customer_repository_lrfs and add TCS iON certification link https://www.tcsion.com/iDH/India/Dashboard/course_detail/12104424/1",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-23",
+      "summary": "Make the hero tagline and description text brighter/more visible",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-24",
+      "summary": "Add a mailto link/button in the Contact section pointing to pranaavsanjith@gmail.com so visitors can email Pranaav directly",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "My Portfolio",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

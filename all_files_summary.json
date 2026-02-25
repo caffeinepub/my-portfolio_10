@@ -1,0 +1,23 @@
+{
+  "backend/main.mo": "Motoko actor that manages contact form submissions, storing messages in a map with auto-incrementing IDs and exposing query functions to retrieve messages sorted by name or email.",
+  "feature_evidence.json": "Feature evidence report confirming the 'Email Me' mailto button feature was implemented in Contact.tsx with high confidence.",
+  "frontend-file-summaries.txt": "JSON document summarizing each frontend source file's purpose and key changes, serving as a reference for the portfolio's component structure and theme updates.",
+  "frontend/index.css": "Global Tailwind CSS entry point defining OKLCH-based CSS custom properties for light and dark themes including colors, borders, and sidebar tokens.",
+  "frontend/index.html": "Minimal HTML shell that mounts the React app into a root div and loads the main TypeScript entry point.",
+  "frontend/src/App.tsx": "Root React component that composes all portfolio sections (Hero, About, Projects, Skills, Certifications, Contact, Footer) with a dark Sonner toast provider.",
+  "frontend/src/components/About.tsx": "About Me section displaying a profile image, bio paragraphs, and a highlights grid with violet/rose accent styling and an animated decorative ring.",
+  "frontend/src/components/Certifications.tsx": "Certifications section rendering a banner image and a grid of seven certification cards with violet/rose/indigo color theming and external links.",
+  "frontend/src/components/Contact.tsx": "Contact section featuring a validated contact form wired to the backend, a prominent 'Email Me' mailto button for pranaavsanjith@gmail.com, contact info, and social links styled with the midnight-violet theme.",
+  "frontend/src/components/Footer.tsx": "Renders the site footer with brand info, smooth-scroll navigation links, and social media icons (GitHub, LinkedIn, X) for Pranaav's portfolio.",
+  "frontend/src/components/Hero.tsx": "Full-screen hero section with an animated particle canvas background, gradient blobs, and CTAs linking to the Projects and About sections.",
+  "frontend/src/components/Navigation.tsx": "Fixed top navigation bar with scroll-aware active section highlighting, smooth-scroll links, and a responsive mobile hamburger menu.",
+  "frontend/src/components/Projects.tsx": "Displays a grid of three featured projects (Customer Segmentation, Fraud Detection, GeoLocker) with thumbnail images, tech tags, and GitHub/live links.",
+  "frontend/src/components/Skills.tsx": "Shows skill proficiency bars grouped into three categories (Data & ML, Frontend & Backend, Databases & Tools) plus a flat list of tech badge pills.",
+  "frontend/src/hooks/useActor.ts": "Custom React hook that creates and caches an Internet Computer actor (authenticated or anonymous) using React Query, invalidating dependent queries whenever the identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides a React context and hook for Internet Identity authentication on the ICP platform, managing login/logout state, AuthClient creation, and identity persistence across page reloads.",
+  "frontend/src/hooks/useQueries.ts": "Defines React Query hooks for fetching all messages, getting message count, and submitting the contact form via the backend actor, with cache invalidation on successful submission.",
+  "frontend/src/index.css": "Global stylesheet that imports fonts, configures Tailwind layers, defines a midnight-violet OKLCH design token theme for both root and dark mode, and declares fade-in, spin, and float keyframe animations.",
+  "frontend/src/main.tsx": "Application entry point that mounts the React app with QueryClientProvider and InternetIdentityProvider wrappers around the root App component.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration extending the default theme with custom OKLCH color tokens, portfolio-specific colors, typography/mono fonts, box shadows, border radii, and accordion keyframes, with typography, container-queries, and animate plugins enabled.",
+  "project_state.json": "Tracks the current build state of R. Pranaav Sanjith's personal portfolio project, recording schema version, implemented features, known issues, architectural notes, and owner details."
+}

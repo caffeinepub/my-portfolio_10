@@ -1,0 +1,46 @@
+{
+  "kind": "build_request",
+  "title": "Add mailto email button to Contact section",
+  "projectName": "Pranaav Portfolio",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-24",
+      "text": "In the Contact section, add a prominent 'Email Me' button or link that opens the visitor's default email client pre-addressed to pranaavsanjith@gmail.com using a mailto: link. The button should be styled consistently with the existing midnight-violet dark theme and placed visibly within the contact area alongside the existing form and social links.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-7",
+          "msg-9"
+        ],
+        "quotes": [
+          "my gmail pranaavsanjith@gmail.com",
+          "create a way they can message me by gmail",
+          "ok just contact"
+        ]
+      },
+      "acceptanceCriteria": [
+        "An 'Email Me' button or link is visible in the Contact section",
+        "Clicking the button opens the user's default email client with the To field pre-filled as pranaavsanjith@gmail.com",
+        "The button uses a mailto:pranaavsanjith@gmail.com href",
+        "The button styling is consistent with the existing dark midnight-violet theme (colors, typography, border radius)",
+        "The button is accessible and works on both desktop and mobile"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify any files listed in frontend.immutablePaths",
+    "Do not add any external email service integrations (no Formspree, SendGrid, etc.)",
+    "Use only a mailto: link — no backend changes required"
+  ],
+  "nonGoals": [
+    "Integrating a third-party form service like Formspree",
+    "Sending emails programmatically from the backend",
+    "Modifying the existing contact form submission flow",
+    "Changing any other section of the portfolio"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

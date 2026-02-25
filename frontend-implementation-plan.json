@@ -1,0 +1,25 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Add mailto email button to Contact section",
+  "requirements": [
+    {
+      "id": "REQ-24",
+      "summary": "Add a prominent 'Email Me' button to the Contact section that opens the visitor's default email client pre-addressed to pranaavsanjith@gmail.com using a mailto: link, styled consistently with the existing midnight-violet dark theme",
+      "acceptanceCriteria": [
+        "An 'Email Me' button or link is visible in the Contact section",
+        "Clicking the button opens the user's default email client with the To field pre-filled as pranaavsanjith@gmail.com",
+        "The button uses a mailto:pranaavsanjith@gmail.com href",
+        "The button styling is consistent with the existing dark midnight-violet theme (colors, typography, border radius)",
+        "The button is accessible and works on both desktop and mobile"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Contact.tsx",
+          "operation": "modify",
+          "description": "Add an 'Email Me' button or link element with href='mailto:pranaavsanjith@gmail.com' in the contact info section. Position it prominently near the existing email display and social links. Style the button using the existing midnight-violet theme classes (bg-violet-500/10, hover:bg-violet-500/20, text-violet-300, border-violet-500/30) to match the portfolio's design system. Ensure the button includes appropriate aria-label for accessibility and uses Mail icon from lucide-react for visual consistency with other contact elements."
+        }
+      ]
+    }
+  ]
+}

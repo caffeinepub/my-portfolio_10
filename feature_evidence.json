@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-in-the-contact-section-add-a-prominent-email-me-button-or-link-that-opens-the-visitor-s-default-email-client-pre-addressed-to-pranaavsanjith-gmail-com-using-a-mailto-link-the-button-should-be-styled-consistently-with-the-existing-midnight-violet-dark-theme-and-placed-visibly-within-the-contact-area-alongside-the-existing-form-and-social-links",
+      "featureTitle": "In the Contact section, add a prominent 'Email Me' button or link that opens the visitor's default email client pre-addressed to pranaavsanjith@gmail.com using a mailto: link. The button should be styled consistently with the existing midnight-violet dark theme and placed visibly within the contact area alongside the existing form and social links.",
+      "files": [
+        "frontend/src/components/Contact.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-24"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

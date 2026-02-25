@@ -1,0 +1,14 @@
+{
+  "frontend/src/App.tsx": "Root application component that assembles all portfolio sections including the new Certifications component, rendered between Skills and Contact, with a Sonner toast provider.",
+  "frontend/src/components/Navigation.tsx": "Sticky responsive navigation with Sparkles icon branding, updated to use violet accent colors, violet active state highlights, and the new midnight-violet theme throughout.",
+  "frontend/src/components/Hero.tsx": "Full-screen hero with animated particle canvas, floating profile avatar, gradient CTA buttons, and social links — tagline now uses `text-white` and description uses `text-gray-200` for maximum brightness and readability against the dark background.",
+  "frontend/src/components/About.tsx": "About Me section redesigned with violet accent colors, gradient decorative elements, rose highlights for achievements, and violet-themed highlight grid cards.",
+  "frontend/src/components/Projects.tsx": "Featured Projects section with the Customer Segmentation Model GitHub link fixed to https://github.com/rpsanjith30/Customer_repository_lrfs, violet-themed cards, and smart link rendering that hides broken '#' links.",
+  "frontend/src/components/Skills.tsx": "Skills section redesigned with violet/rose/indigo color scheme for the three skill categories, updated progress bars and tech badge hover states to match the new theme.",
+  "frontend/src/components/Contact.tsx": "Contact section with a prominent \"Email Me\" mailto button linking to pranaavsanjith@gmail.com, updated email display in contact info, existing contact form, and social links — all styled with the midnight-violet theme.",
+  "frontend/src/components/Footer.tsx": "Footer updated with Sparkles icon branding, violet accent colors, rose heart icon, correct GitHub link to rpsanjith30, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations: fetching all messages, getting message count, and submitting the contact form with cache invalidation.",
+  "frontend/src/index.css": "Global styles with a new midnight-violet OKLCH theme using Plus Jakarta Sans and JetBrains Mono fonts, updated color tokens (violet, rose, indigo replacing teal/amber), and custom animation keyframes including a new float animation.",
+  "frontend/tailwind.config.js": "Extended Tailwind config updated with Plus Jakarta Sans/JetBrains Mono fonts, new portfolio OKLCH color tokens (violet, rose, indigo), violet/rose glow box shadows, and float animation utility.",
+  "frontend/src/components/Certifications.tsx": "Certifications section redesigned with violet/rose/indigo theme, TCS iON certification card added with the correct link https://www.tcsion.com/iDH/India/Dashboard/course_detail/12104424/1, and all cards updated to the new visual style."
+}
